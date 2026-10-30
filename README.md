@@ -28,22 +28,23 @@
 ## Установка
 
 Склонируй репозиторий в отдельную папку `schizophrenia` внутри каталога
-личных скиллов Codex. Для стандартного расположения `~/.codex/skills`:
+личных скиллов Codex. В [официальной документации](https://learn.chatgpt.com/docs/build-skills)
+для пользовательских скиллов указан каталог `~/.agents/skills`:
 
 **Windows / PowerShell:**
 
 ```powershell
-git clone https://github.com/Shpuntyara/schizophrenia.git "$env:USERPROFILE\.codex\skills\schizophrenia"
+git clone https://github.com/Shpuntyara/schizophrenia.git "$env:USERPROFILE\.agents\skills\schizophrenia"
 ```
 
 **macOS / Linux:**
 
 ```sh
-git clone https://github.com/Shpuntyara/schizophrenia.git ~/.codex/skills/schizophrenia
+git clone https://github.com/Shpuntyara/schizophrenia.git ~/.agents/skills/schizophrenia
 ```
 
-Если каталог скиллов настроен иначе, используй его. Если скилл ещё
-не появился в списке, открой новый чат или перезапусти Codex.
+Если твоя установка использует другой каталог, например `~/.codex/skills`,
+используй его. Если новый скилл не появился, перезапусти Codex.
 
 ## Включить и выключить
 
